@@ -18,7 +18,7 @@ npm run serve
 npm run dev
 ```
 
-Build your optimized assets to `dist`:
+Build your optimized assets to `assets/bundled`:
 
 ```bash
 npm run build
