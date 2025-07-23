@@ -1,0 +1,24 @@
+{
+  "name": "sunny/kirby-starter",
+  "description": "Kirby Starter",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Sunny",
+      "homepage": "https://sunny.systems"
+    }
+  ],
+  "require": {
+    "php": "~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0",
+    "getkirby/cms": "^5.0",
+    "arnoson/kirby-vite": "^5.5"
+  },
+  "config": {
+    "allow-plugins": {
+      "getkirby/composer-installer": true
+    },
+    "optimize-autoloader": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

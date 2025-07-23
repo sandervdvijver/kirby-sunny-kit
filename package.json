@@ -1,0 +1,21 @@
+{
+  "name": "sunny/kirby-starter",
+  "description": "Kirby Starter",
+  "type": "module",
+  "authors": [
+    {
+      "name": "Sunny",
+      "homepage": "https://sunny.systems"
+    }
+  ],
+  "scripts": {
+    "dev": "vite",
+    "serve": "php -S localhost:8000 kirby/router.php",
+    "build": "vite build",
+    "deploy": "./deploy.sh"
+  },
+  "dependencies": {
+    "vite": "^6.3.5",
+    "vite-plugin-kirby": "^5.5.1"
+  }
+}
