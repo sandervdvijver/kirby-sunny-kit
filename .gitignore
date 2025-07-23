@@ -15,14 +15,16 @@ Icon
 /.idea
 .cursor
 
-# Node
+# Node modules
 node_modules
 
-# Composer
+# Composer and kirby directory
 vendor
+kirby
 
-# Environment
+# Environment and temporary dev files
 .env
+.dev
 
 # -------------SECURITY-------------
 # NEVER publish these files via Git!
