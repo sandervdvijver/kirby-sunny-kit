@@ -21,6 +21,9 @@ node_modules
 # Composer
 vendor
 
+# Environment
+.env
+
 # -------------SECURITY-------------
 # NEVER publish these files via Git!
 # -------------SECURITY-------------
