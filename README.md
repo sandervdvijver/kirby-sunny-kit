@@ -32,6 +32,8 @@ npm run deploy  # to be implemented
 
 ## Vite 
 
+I use the [Kirby Vite plugin](https://github.com/arnoson/kirby-vite) and borrowed some things from the [Kirby Vite Starterkit](https://github.com/arnoson/kirby-vite-basic-kit).
+
 I only use Vite for its nice live reloading and easy out-of-the-box asset bundling. I do not want it to take over the entire project structure. So I kind of tweaked a default set-up to get out of my way and to keep this project more readable in the future, when Vite is replaced by the next thing.
 
 So I moved the src files to `assets/src` and just use the `index.js` in the root folder as an entry point.
